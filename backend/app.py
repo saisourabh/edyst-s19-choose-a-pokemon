@@ -18,4 +18,4 @@ def pokedex(name):
 
 
 if __name__ == '__main__':
-    app.run(port=8006)
+    app.run(host='localhost' ,port=8006)
