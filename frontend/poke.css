@@ -1,0 +1,161 @@
+
+.heading {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pokemons {
+    display: flex;
+    height: 500px;
+    margin: 40px auto auto auto;
+    max-width: 1000px;
+    background-color: rgb(246, 254, 255);
+    justify-content: center;
+}
+
+.pokemon {
+    margin: auto;
+    padding: 26px;
+    font-size: 20px;
+    height: 300px;
+    width: 153px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pokemons :hover {
+    font-size: 150%;
+}
+
+.id {
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+
+.image1 {
+    opacity: 0;
+
+    margin-top: 50px;
+
+    content:url("https://img.rankedboost.com/wp-content/plugins/ice/pokemon-go/Bulbasaur-Pokemon-Go.png");
+
+
+}
+.image1:hover{
+    opacity: 1;
+}
+.image2 {
+    opacity: 0;
+
+    margin-top: 60px;
+
+    content:url("https://img.rankedboost.com/wp-content/plugins/ice/pokemon-go/Charmander-Pokemon-Go.png");
+
+
+}
+.image2:hover{
+    opacity: 1;
+}
+
+.image3 {
+    opacity: 0;
+    margin-top: 70px;
+    content:url("https://img.rankedboost.com/wp-content/plugins/ice/pokemon-go/Squirtle-Pokemon-Go.png");
+}
+.image3:hover{
+    opacity: 1;
+}
+
+
+.name {
+   
+    margin: 70px auto 40px auto;
+    
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Bulbasaur {
+    background-image: url("images/close.png");
+    background-size: 205px 358px;
+    background-color: rgb(164, 225, 240);
+    border: 2px solid rgb(144, 220, 245);
+    /*background-color: rgb(207, 243, 221);
+    border: 2px solid rgb(153, 248, 201);*/
+    border-radius: 5px;
+}
+
+
+#Charmander {
+
+    background-image: url("images/close.png");
+    background-size: 205px 358px;
+    background-color: rgb(164, 225, 240);
+    border: 2px solid rgb(144, 220, 245);
+   /* background-color: rgb(243, 214, 222);
+    border: 2px solid rgb(250, 172, 202);*/
+    border-radius: 5px;
+}
+
+
+#Squirtle {
+    background-image: url("images/close.png");
+    background-size: 205px 358px;
+
+  
+    background-color: rgb(164, 225, 240);
+    border: 2px solid rgb(144, 220, 245);
+    border-radius: 5px;
+}
+#Bulbasaur:hover {
+
+    background-image: url("images/open.png");
+    background-size: 205px 358px;
+
+    background-color: rgb(164, 225, 240);
+    border: 2px solid rgb(144, 220, 245);
+    border-radius: 5px;
+}
+#Charmander:hover {
+
+    background-image: url("images/open.png");
+    background-size: 205px 358px;
+
+    background-color: rgb(164, 225, 240);
+    border: 2px solid rgb(144, 220, 245);
+    border-radius: 5px;
+}
+#Squirtle:hover {
+
+    background-image: url("images/open.png");
+    background-size: 205px 358px;
+
+    background-color: rgb(164, 225, 240);
+    border: 2px solid rgb(144, 220, 245);
+    border-radius: 5px;
+}
+
+
+
+#Bulbasaur #no{
+    background-color: rgb(28, 121, 209);
+
+    /*background-color: rgb(20, 161, 20);*/
+}
+
+#Charmander #no{
+    background-color: rgb(28, 121, 209);
+
+   /* background-color: rgb(218, 26, 26);*/
+}
+
+#Squirtle #no{
+    background-color: rgb(28, 121, 209);
+}
